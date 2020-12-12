@@ -1,0 +1,46 @@
+*************** Catherine************
+*************************************
+Clothing Man Tree Person Woman 
+Footwear Window	Flower	Wheel Plant	
+Car	Human Building Mammal House	
+Chair Tire Suit	Food Boy
+
+*************** Tatiana************
+*************************************
+Skyscraper Boat Jeans Toy Tower		
+Glasses	Dress Vehicle Bird Book	
+Tableware Drink	Bottle Bicycle Furniture	
+Snack Sculpture	Flag Dog Dessert
+
+*************** Gözde **************
+*************************************
+Microphone Fruit Jacket Guitar Drum	
+Sunglasses Poster Fish Shelf Houseplant
+Flowerpot Airplane Door Vegetable Animal
+Shorts Musical Helmet Duck Cat
+
+
+*************** Yazid ***************
+*************************************
+Balloon Motorcycle Horse Hat Train
+Truck Rose Bus Desk Cattle
+Bee Tie Butterfly Swimwear Billboard
+Goggles Beer Laptop Cabinetry Insect
+
+
+Balloon         600  Bee         600
+Motorcycle      600  Tie         340
+Horse           600  Butterfly   600
+Hat             600  Swimwear    600
+Train           600  Billboard   600
+Truck           600  Goggles     600
+Rose            600  Beer        600
+Bus             600  Laptop      600
+Desk            600  Cabinetry   600
+Cattle          270  Insect      600
+
+
+oi_download_dataset --base_dir ~/MLFinal/OpenImages --labels Balloon Motorcycle Horse Hat Train --format pascal --limit 600
+oi_download_dataset --base_dir ~/MLFinal/OpenImages --labels Truck Rose Bus Desk Cattle --format pascal --limit 600
+oi_download_dataset --base_dir ~/MLFinal/OpenImages --labels Bee Tie Butterfly Swimwear Billboard --format pascal --limit 600
+oi_download_dataset --base_dir ~/MLFinal/OpenImages --labels Goggles Beer Laptop Cabinetry Insect --format pascal --limit 600
