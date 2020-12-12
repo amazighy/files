@@ -1,23 +1,3 @@
-*************** Catherine************
-*************************************
-Clothing Man Tree Person Woman 
-Footwear Window	Flower	Wheel Plant	
-Car	Human Building Mammal House	
-Chair Tire Suit	Food Boy
-
-
-Clothing        600   Car	  600       
-Man             600   Salad       600
-Tree            600   Building    600
-Person          600   Mammal      600
-Woman           600   House       600
-Footwear        600   Chair       600
-Window          600   Tire        600
-Flower	        600   Suit        600
-Wheel           600   Food        600
-Plant	        600   Boy         600
-	
-  	 
 
 *************** Tatiana**************
 *************************************
@@ -75,8 +55,8 @@ Cattle          270  Insect      600
 *********************************************************************
 *****************************Second Folder***************************
 *********************************************************************
-The YazidOpenImages1.zip folder contains the below classes
-Here is the link
+The YazidOpenImages2.zip folder contains the below classes
+
 
 Couch Taxi Penguin Cookie Apple
 Van Shirt Bench Umbrella Paddle 
@@ -95,11 +75,11 @@ Umbrella      471   Orange     600
 Paddle        224   Pumpkin    600
 
 *********************************************************************
-*****************************Third Folder*****************8**********
+*****************************Third Folder****************************
 *********************************************************************
 
-The YazidOpenImages2.zip folder contains the below classes
-Here is the link
+The YazidOpenImages3.zip folder contains the below classes
+
 
 Stairs Candle Pastry Cake Lantern
 Plate Box Bookcase Watercraft Football
@@ -117,5 +97,47 @@ Bookcase      198   Cocktail   600
 Watercraft    600   Drawer     600
 Football      600   Castle     257
 
+*********************************************************************
+*****************************Fourth Folder***************************
+*********************************************************************
 
+
+The YazidOpenImages4.zip folder contains the below classes
+
+Clothing Man Tree Person Woman 
+Footwear Window	Flower	Wheel Plant	
+Car Human Building Mammal House	
+Chair Tire Suit	Food Boy
+
+
+Clothing        600   Car	  600       
+Man             600   Salad       600
+Tree            600   Building    600
+Person          600   Mammal      600
+Woman           600   House       600
+Footwear        600   Chair       600
+Window          600   Tire        600
+Flower	        600   Suit        600
+Wheel           600   Food        600
+Plant	        600   Boy         600
+
+
+YazidOpenImages
+Link To the data
+!wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1_T0Y7Na-GpRju_Yb-c8rkxZGz2Dhe8yT' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1_T0Y7Na-GpRju_Yb-c8rkxZGz2Dhe8yT" -O YazidOpenImages.zip && rm -rf /tmp/cookies.txt
+
+
+YazidOpenImages2
+Link To the data
+!wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1iEdPw27XuNE2rbTK56UZaz9U4YcvS6IV' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1iEdPw27XuNE2rbTK56UZaz9U4YcvS6IV" -O YazidOpenImages2.zip && rm -rf /tmp/cookies.txt
+
+
+YazidOpenImages3
+Link To the data
+!wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1Ef0GbaX26FEYSeTLaihaUk7OzdgJJbWo' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1Ef0GbaX26FEYSeTLaihaUk7OzdgJJbWo" -O YazidOpenImages3.zip && rm -rf /tmp/cookies.txt
+
+
+YazidOpenImages4
+Link To the data
+!wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=17OJaH2u0PXggyaglr0tKzwOb6NRjnBUD' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=17OJaH2u0PXggyaglr0tKzwOb6NRjnBUD" -O YazidOpenImages4.zip && rm -rf /tmp/cookies.txt
 
