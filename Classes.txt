@@ -7,7 +7,7 @@ Chair Tire Suit	Food Boy
 
 
 Clothing        600   Car	  600       
-Man             600   Human       600
+Man             600   Salad       600
 Tree            600   Building    600
 Person          600   Mammal      600
 Woman           600   House       600
