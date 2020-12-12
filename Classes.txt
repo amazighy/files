@@ -5,13 +5,39 @@ Footwear Window	Flower	Wheel Plant
 Car	Human Building Mammal House	
 Chair Tire Suit	Food Boy
 
-*************** Tatiana************
+
+Clothing        600   Car	        600       
+Man             600   Human       600
+Tree            600   Building    600
+Person          600   Mammal      600
+Woman           600   House       600
+Footwear        600   Chair       600
+Window          600   Tire        600
+Flower	        600   Suit        600
+Wheel           600   Food        600
+Plant	          600   Boy         600
+	
+  	 
+
+*************** Tatiana**************
 *************************************
 Skyscraper Boat Jeans Toy Tower		
 Glasses	Dress Vehicle Bird Book	
 Tableware Drink	Bottle Bicycle Furniture	
 Snack Sculpture	Flag Dog Dessert
 
+Skyscraper      600   Tableware   600
+Boat            600   Drink       600
+Jeans           600   Bottle      600
+Toy             600   Bicycle     600
+Tower	          600	  Snack       600
+Glasses         600	  Furniture   600
+Dress           600   Sculpture   600
+Vehicle         600   Flag        600
+Bird            600   Dog         600
+Book            600   Dessert     600
+
+ 	  	
 *************** Gözde **************
 *************************************
 Microphone Fruit Jacket Guitar Drum	
@@ -38,9 +64,3 @@ Rose            600  Beer        600
 Bus             600  Laptop      600
 Desk            600  Cabinetry   600
 Cattle          270  Insect      600
-
-
-oi_download_dataset --base_dir ~/MLFinal/OpenImages --labels Balloon Motorcycle Horse Hat Train --format pascal --limit 600
-oi_download_dataset --base_dir ~/MLFinal/OpenImages --labels Truck Rose Bus Desk Cattle --format pascal --limit 600
-oi_download_dataset --base_dir ~/MLFinal/OpenImages --labels Bee Tie Butterfly Swimwear Billboard --format pascal --limit 600
-oi_download_dataset --base_dir ~/MLFinal/OpenImages --labels Goggles Beer Laptop Cabinetry Insect --format pascal --limit 600
