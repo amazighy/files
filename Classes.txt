@@ -15,7 +15,7 @@ Footwear        600   Chair       600
 Window          600   Tire        600
 Flower	        600   Suit        600
 Wheel           600   Food        600
-Plant	        600   Boy       600
+Plant	        600   Boy         600
 	
   	 
 
