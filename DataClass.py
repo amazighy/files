@@ -75,7 +75,7 @@ class MicrocontrollerDataset(utils.Dataset):
         self.add_class('dataset', 69, 'wheel')
         self.add_class('dataset', 70, 'plant')
         self.add_class('dataset', 71, 'car')
-        self.add_class('dataset', 72, 'human')
+        self.add_class('dataset', 72, 'salad')
         self.add_class('dataset', 73, 'building')
         self.add_class('dataset', 74, 'mammal')
         self.add_class('dataset', 75, 'house')
