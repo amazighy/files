@@ -62,7 +62,7 @@ class MicrocontrollerDataset(utils.Dataset):
         self.add_class('dataset', 57, 'camera')
         self.add_class('dataset', 58, 'tomato')
         self.add_class('dataset', 59, 'orange')
-        self.add_class('dataset', 60, 'Ppumpkin')
+        self.add_class('dataset', 60, 'pumpkin')
 
         self.add_class('dataset', 61, 'clothing')
         self.add_class('dataset', 62, 'man')
