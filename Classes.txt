@@ -145,3 +145,31 @@ Gözde data
 !wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1gcDz0ILZ7r9pDjDeylJ1de41ZIBWqJio' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1gcDz0ILZ7r9pDjDeylJ1de41ZIBWqJio" -O GozdeOpenImages.zip && rm -rf /tmp/cookies.txt
 
 !gdown https://drive.google.com/uc?id=1Ef0GbaX26FEYSeTLaihaUk7OzdgJJbWo
+
+
+
+
+
+
+
+
+import gdown
+url='https://drive.google.com/uc?id=1iEdPw27XuNE2rbTK56UZaz9U4YcvS6IV'
+output='YazidOpenImages.zip'
+# time.sleep(100)
+gdown.download(url, output, quiet=False)
+
+url='https://drive.google.com/uc?id=1Ef0GbaX26FEYSeTLaihaUk7OzdgJJbWo'
+output='YazidOpenImages2.zip'
+# time.sleep(100)
+gdown.download(url, output, quiet=False)
+
+url='https://drive.google.com/uc?id=17OJaH2u0PXggyaglr0tKzwOb6NRjnBUD'
+output='YazidOpenImages3.zip'
+# time.sleep(100)
+gdown.download(url, output, quiet=False)
+
+url='https://drive.google.com/uc?id=1gcDz0ILZ7r9pDjDeylJ1de41ZIBWqJio'
+output='YazidOpenImages4.zip'
+# time.sleep(100)
+gdown.download(url, output, quiet=False)
