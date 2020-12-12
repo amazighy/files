@@ -46,8 +46,14 @@ Flowerpot Airplane Door Vegetable Animal
 Shorts Musical Helmet Duck Cat
 
 
-*************** Yazid ***************
-*************************************
+****************************Yazid************************************
+
+*********************************************************************
+**************************First Folder*******************************
+*********************************************************************
+The YazidOpenImages.zip folder contains the below classes
+Here is the link
+
 Balloon Motorcycle Horse Hat Train
 Truck Rose Bus Desk Cattle
 Bee Tie Butterfly Swimwear Billboard
@@ -64,3 +70,52 @@ Rose            600  Beer        600
 Bus             600  Laptop      600
 Desk            600  Cabinetry   600
 Cattle          270  Insect      600
+
+
+*********************************************************************
+*****************************Second Folder***************************
+*********************************************************************
+The YazidOpenImages1.zip folder contains the below classes
+Here is the link
+
+Couch Taxi Penguin Cookie Apple
+Van Shirt Bench Umbrella Paddle 
+Deer Porch Bread Television Fountain
+Doll Camera Tomato Orange Pumpkin
+
+Couch         600   Deer       600
+Taxi          600   Porch      600
+Penguin       600   Bread      600
+Cookie        422   Television 600
+Apple         312   Fountain   600
+Van           600   Doll       600
+Shirt         430   Camera     600
+Bench         600   Tomato     600
+Umbrella      471   Orange     600
+Paddle        224   Pumpkin    600
+
+*********************************************************************
+*****************************Third Folder*****************8**********
+*********************************************************************
+
+The YazidOpenImages2.zip folder contains the below classes
+Here is the link
+
+Stairs Candle Pastry Cake Lantern
+Plate Box Bookcase Watercraft Football
+Maple Curtain Muffin Canoe Swan
+Bowl Mushroom Cocktail Drawer Castle
+
+Stairs        393   Maple      600
+Candle        600   Curtain    182
+Pastry        600   Muffin     522
+Cake          600   Canoe      583
+Lantern       600   Swan       430
+Plate         600   Bowl       577     
+Box           600   Mushroom   352  
+Bookcase      198   Cocktail   600
+Watercraft    600   Drawer     600
+Football      600   Castle     257
+
+
+
