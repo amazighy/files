@@ -10,3 +10,7 @@ Exporting a dataframe to a postgresql
 from sqlalchemy import create_engine
 engine = create_engine('postgresql://myusername:mypassword@myhost:5432/mydatabase')
 df.to_sql('table_name', engine)
+
+
+
+Ip address : hostname -I | awk '{print $1}'
