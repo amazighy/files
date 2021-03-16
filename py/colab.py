@@ -14,3 +14,6 @@ with ZipFile(file_name, 'r') as zip:
     print('Done')
 pip install openimages
  oi_download_dataset --base_dir ~/MLFinal/OpenImgs --labels Zebra Binoculars Woman Man Tree --format pascal --limit 30
+    
+    
+    # %cd /content/gdrive/MyDrive/MDLand
