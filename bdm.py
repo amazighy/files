@@ -3,10 +3,9 @@
 import csv
 from dateutil import rrule, parser
 import ast
-from statistics import median
 import time
 from pyspark import SparkContext
-import pandas as pd
+# import pandas as pd
 import os
 import sys
 
@@ -24,6 +23,14 @@ categories = {
 }
 
 
+def my_median(sample):
+    n = len(sample)
+    index = n // 2
+    if n % 2:
+        return sorted(sample)[index]
+    return sum(sorted(sample)[index - 1:index + 1]) / 2
+
+
 def convert_dates(x):
     daily = ast.literal_eval(x[3])
     dates = list(rrule.rrule(rrule.DAILY,
@@ -34,7 +41,7 @@ def convert_dates(x):
 
 
 def medianMinMax(x):
-    return x[0][0], x[0][1], median(x[1]), min(x[1]), max(x[1])
+    return x[0][0], x[0][1], my_median(x[1]), min(x[1]), max(x[1])
 
 
 os.mkdir('output')
