@@ -3,9 +3,7 @@
 import csv
 from dateutil import rrule, parser
 import ast
-import time
 from pyspark import SparkContext
-# import pandas as pd
 import os
 import sys
 
@@ -67,24 +65,10 @@ def main(sc):
                     .combineByKey(lambda v: [v], lambda x, y: x+[y], lambda x, y: x+y)\
                     .map(medianMinMax)\
                     .saveAsTextFile('output/'+'Pharmacies and Drug Stores')
-                    
-#         header = ['year', 'date', 'median', 'low', 'high']
-#         i = 'output/'+i.replace(" ", "_")+'.csv'
-#         with open(i, 'w') as f:
-#             writer = csv.writer(f)
-#             writer.writerow(header)
-#             writer.writerows(Category)
-#         # print(i)
-        # df = pd.DataFrame(Category, columns=[
-        #     'year', 'date', 'median', 'min', 'max'])
-        # print(df)
 
 
 if __name__ == "__main__":
-
-    start = time.time()
     sc = SparkContext()
     main(sc)
 
-    end = time.time()
-    print(end - start)
+
