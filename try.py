@@ -41,7 +41,7 @@ def toCSVLine(data):
 
 
 def main(sc):
-    data = sc.textFile('pattern/*')
+    data = sc.textFile('weekly-patterns-nyc-2019-2020/*')
     header = data.first()
     header = sc.parallelize([header])
     data = data.subtract(header)
