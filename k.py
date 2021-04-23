@@ -40,7 +40,7 @@ def toCSVLine(data):
 
 
 def main(sc):
-    data = sc.textFile("hdfs:///data/share/bdm/weekly-patterns-nyc-2019-2020/*")
+    data = sc.textFile("pattern_test.csv")
     header = data.first()
     header = sc.parallelize([header])
     data = data.subtract(header)
@@ -48,7 +48,7 @@ def main(sc):
     head = sc.parallelize([head])
 
     for i in list(categories.keys()):
-        restaurants = set(sc.textFile('core_poi_ny.csv')
+        restaurants = set(sc.textFile('hdfs:///data/share/bdm/core-places-nyc.csv')
                           .map(lambda x: x.split(','))
                           .map(lambda x: (x[1], x[9], x[13]))
                           .filter(lambda x: (x[1] in categories[i]))
