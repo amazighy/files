@@ -40,7 +40,7 @@ def toCSVLine(data):
 
 
 def main(sc):
-    data = sc.textFile(hdfs: // /data/share/bdm/weekly-patterns-nyc-2019-2020/*)
+    data = sc.textFile("hdfs:///data/share/bdm/weekly-patterns-nyc-2019-2020/*")
     header = data.first()
     header = sc.parallelize([header])
     data = data.subtract(header)
