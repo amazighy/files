@@ -44,6 +44,8 @@ def main(sc):
     header = data.first()
     header = sc.parallelize([header])
     data = data.subtract(header)
+    head = "year,date,median,min,max"
+    head = sc.parallelize([head])
 
     for i in list(categories.keys()):
         restaurants = set(sc.textFile('core_poi_ny.csv')
@@ -53,18 +55,20 @@ def main(sc):
                           .map(lambda x: x[0])
                           .collect())
 
-        data.map(lambda x: next(csv.reader([x])))\
-            .filter(lambda x: x[1] in restaurants)\
-            .map(lambda x: (x[1], x[12][:10], x[13][:10], x[16]))\
-            .map(convert_dates)\
-            .flatMap(lambda x: x)\
-            .combineByKey(lambda v: [v], lambda x, y: x+[y], lambda x, y: x+y)\
-            .map(medianMinMax)\
-            .map(toCSVLine)\
-            .saveAsTextFile('output/'+i)
+        head.union(
+            data.map(lambda x: next(csv.reader([x])))
+            .filter(lambda x: x[1] in restaurants)
+            .map(lambda x: (x[1], x[12][:10], x[13][:10], x[16]))
+            .map(convert_dates)
+            .flatMap(lambda x: x)
+            .combineByKey(lambda v: [v], lambda x, y: x+[y], lambda x, y: x+y)
+            .map(medianMinMax)
+            .map(toCSVLine)
+        ).saveAsTextFile('output/'+i)
 
 
 if __name__ == "__main__":
 
     sc = SparkContext()
     main(sc)
+
